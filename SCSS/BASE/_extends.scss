@@ -1,0 +1,12 @@
+@import "lista";
+
+%texto {
+  color: nth($color, 1);
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+%centrado {
+  display: flex;
+  justify-content: center;
+}
